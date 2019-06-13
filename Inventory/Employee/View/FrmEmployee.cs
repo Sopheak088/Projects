@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Inventory.Connection;
 
 namespace Inventory.Employee.View
 {
@@ -20,8 +21,7 @@ namespace Inventory.Employee.View
 
         private void FrmEmployee_Load(object sender, EventArgs e)
         {
-            string adminName = ConfigurationManager.AppSettings["AdminName"];
-            MessageBox.Show(adminName);
+            ConnectionDb.Connect.Close();
         }
     }
 }
