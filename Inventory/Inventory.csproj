@@ -107,6 +107,25 @@
     <Content Include="Database\Motify_Script.sql" />
     <Content Include="Database\STORE_PROCEDURE.sql" />
     <Content Include="Database\TABLE.sql" />
+    <Content Include="Image\add_list_25px.png" />
+    <Content Include="Image\add_user_group_woman_man_25px.png" />
+    <Content Include="Image\airplane_mode_on_32px.png" />
+    <Content Include="Image\do_not_disturb_25px.png" />
+    <Content Include="Image\edit_property_25px.png" />
+    <Content Include="Image\employee_card_32px.png" />
+    <Content Include="Image\exit_25px_2.png" />
+    <Content Include="Image\fonticons_25px.png" />
+    <Content Include="Image\hearts_32px.png" />
+    <Content Include="Image\plus_25px.png" />
+    <Content Include="Image\print_25px.png" />
+    <Content Include="Image\restaurant_32px.png" />
+    <Content Include="Image\save_25px.png" />
+    <Content Include="Image\save_as_25px.png" />
+    <Content Include="Image\search.png" />
+    <Content Include="Image\shopping_cart_loaded_32px.png" />
+    <Content Include="Image\transportation_32px.png" />
+    <Content Include="Image\upload_to_ftp_25px.png" />
+    <Content Include="Image\view_details_25px.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
