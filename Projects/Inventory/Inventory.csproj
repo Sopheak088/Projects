@@ -36,20 +36,23 @@
     <StartupObject>Inventory.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Janus.Data.v4, Version=4.0.52.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\CSharp\Pheak\Pheak\bin\Debug\Janus.Data.v4.dll</HintPath>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\Notice\bin\Debug\Bunifu_UI_v1.5.3.dll</HintPath>
     </Reference>
-    <Reference Include="Janus.Windows.Common.v4, Version=4.0.52.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\CSharp\Pheak\Pheak\bin\Debug\Janus.Windows.Common.v4.dll</HintPath>
+    <Reference Include="Janus.Data.v4">
+      <HintPath>..\Notice\bin\Debug\Janus.Data.v4.dll</HintPath>
     </Reference>
-    <Reference Include="Janus.Windows.GridEX.v4, Version=4.0.52.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\CSharp\Pheak\Pheak\bin\Debug\Janus.Windows.GridEX.v4.dll</HintPath>
+    <Reference Include="Janus.Windows.Common.v4">
+      <HintPath>..\Notice\bin\Debug\Janus.Windows.Common.v4.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.GridEX.v4">
+      <HintPath>..\Notice\bin\Debug\Janus.Windows.GridEX.v4.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.UI.v4">
+      <HintPath>..\Notice\bin\Debug\Janus.Windows.UI.v4.dll</HintPath>
     </Reference>
     <Reference Include="Pheak">
-      <HintPath>..\..\..\CSharp\Pheak\Pheak\bin\Debug\Pheak.dll</HintPath>
+      <HintPath>..\Notice\bin\Debug\Pheak.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
@@ -64,7 +67,7 @@
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Tulpep.NotificationWindow">
-      <HintPath>..\..\..\CSharp\Pheak\Pheak\bin\Debug\Tulpep.NotificationWindow.dll</HintPath>
+      <HintPath>..\Notice\bin\Debug\Tulpep.NotificationWindow.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

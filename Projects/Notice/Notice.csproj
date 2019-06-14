@@ -48,6 +48,10 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\CSharp\Pheak\Pheak\bin\Debug\Janus.Windows.GridEX.v4.dll</HintPath>
     </Reference>
+    <Reference Include="Janus.Windows.UI.v4, Version=4.0.52.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Janus.Windows.UI.v4.dll</HintPath>
+    </Reference>
     <Reference Include="Pheak, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\CSharp\Pheak\Pheak\bin\Debug\Pheak.dll</HintPath>
@@ -127,9 +131,6 @@
     <Compile Include="Note\View\frmNote.Designer.cs">
       <DependentUpon>frmNote.cs</DependentUpon>
     </Compile>
-    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
-    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
-    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Payment\PaymentDao\PaymentDao.cs" />
     <Compile Include="Payment\View\frmPayment.cs">
       <SubType>Form</SubType>
@@ -177,18 +178,6 @@
     <EmbeddedResource Include="Note\View\frmNote.resx">
       <DependentUpon>frmNote.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="obj\Debug\Notice.About.View.frmAbout.resources" />
-    <EmbeddedResource Include="obj\Debug\Notice.Bank.View.frmBank.resources" />
-    <EmbeddedResource Include="obj\Debug\Notice.Event.View.frmEvent.resources" />
-    <EmbeddedResource Include="obj\Debug\Notice.frmMain.resources" />
-    <EmbeddedResource Include="obj\Debug\Notice.Gallery.View.frmGallery.resources" />
-    <EmbeddedResource Include="obj\Debug\Notice.Incomes.View.frmIncome.resources" />
-    <EmbeddedResource Include="obj\Debug\Notice.LoveCount.View.frmLoveCount.resources" />
-    <EmbeddedResource Include="obj\Debug\Notice.Note.View.frmLoveCount.resources" />
-    <EmbeddedResource Include="obj\Debug\Notice.Payment.View.frmPayment.resources" />
-    <EmbeddedResource Include="obj\Debug\Notice.Properties.Resources.resources" />
-    <EmbeddedResource Include="obj\Debug\Notice.SavingBank.View.frmBankSaving.resources" />
-    <EmbeddedResource Include="obj\Debug\Notice.YourPayment.View.frmYourPayment.resources" />
     <EmbeddedResource Include="Payment\View\frmPayment.resx">
       <DependentUpon>frmPayment.cs</DependentUpon>
     </EmbeddedResource>
@@ -208,12 +197,6 @@
     <EmbeddedResource Include="YourPayment\View\frmYourPayment.resx">
       <DependentUpon>frmYourPayment.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="bin\Debug\Notice.exe.config" />
-    <None Include="bin\Debug\Notice.vshost.exe.config" />
-    <None Include="bin\Debug\Notice.vshost.exe.manifest" />
-    <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
-    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
-    <None Include="obj\Debug\Notice.csproj.GenerateResource.Cache" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -228,20 +211,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bin\Debug\Notice.exe" />
-    <Content Include="bin\Debug\Notice.pdb" />
-    <Content Include="bin\Debug\Notice.vshost.exe" />
-    <Content Include="bin\Debug\Pheak.dll" />
-    <Content Include="bin\Debug\Pheak.pdb" />
-    <Content Include="bin\Debug\Pheak.xml" />
-    <Content Include="bin\Debug\Tulpep.NotificationWindow.dll" />
     <Content Include="Database\StoreProcedure.sql" />
     <Content Include="Database\STRUCTURE.sql" />
-    <Content Include="obj\Debug\Notice.csproj.FileListAbsolute.txt" />
-    <Content Include="obj\Debug\Notice.exe" />
-    <Content Include="obj\Debug\notice.exe.licenses" />
-    <Content Include="obj\Debug\Notice.pdb" />
-    <Content Include="obj\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
     <Content Include="Resources\20181008_150039_HDR.jpg" />
     <Content Include="Resources\about_50px.png" />
     <Content Include="Resources\accept.png" />
@@ -279,7 +250,6 @@
     <Content Include="Resources\wedding_day_50px_1.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="bin\Release\" />
     <Folder Include="Report\ReportDao\" />
     <Folder Include="Report\View\" />
   </ItemGroup>

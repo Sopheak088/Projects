@@ -30,19 +30,18 @@
         {
             this.components = new System.ComponentModel.Container();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.lblNum = new System.Windows.Forms.Label();
-            this.ctmSavePic = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.btnRotateRight = new Bunifu.Framework.UI.BunifuImageButton();
             this.btnRotateLeft = new Bunifu.Framework.UI.BunifuImageButton();
+            this.lblNum = new System.Windows.Forms.Label();
             this.btnUpload = new Bunifu.Framework.UI.BunifuImageButton();
             this.btnNext = new Bunifu.Framework.UI.BunifuImageButton();
             this.btnBack = new Bunifu.Framework.UI.BunifuImageButton();
             this.btnPrevious = new Bunifu.Framework.UI.BunifuImageButton();
             this.picShow = new System.Windows.Forms.PictureBox();
+            this.ctmSavePic = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.savePic = new System.Windows.Forms.ToolStripMenuItem();
             this.saveAllPic = new System.Windows.Forms.ToolStripMenuItem();
             this.panel2.SuspendLayout();
-            this.ctmSavePic.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnRotateRight)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnRotateLeft)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnUpload)).BeginInit();
@@ -50,6 +49,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnBack)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnPrevious)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picShow)).BeginInit();
+            this.ctmSavePic.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel2
@@ -68,24 +68,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(316, 575);
             this.panel2.TabIndex = 10;
-            // 
-            // lblNum
-            // 
-            this.lblNum.Font = new System.Drawing.Font("Hanuman", 9.25F);
-            this.lblNum.Location = new System.Drawing.Point(24, 1);
-            this.lblNum.Name = "lblNum";
-            this.lblNum.Size = new System.Drawing.Size(262, 25);
-            this.lblNum.TabIndex = 10;
-            this.lblNum.Text = "1";
-            this.lblNum.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // ctmSavePic
-            // 
-            this.ctmSavePic.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.savePic,
-            this.saveAllPic});
-            this.ctmSavePic.Name = "ctmSavePic";
-            this.ctmSavePic.Size = new System.Drawing.Size(161, 48);
             // 
             // btnRotateRight
             // 
@@ -118,6 +100,16 @@
             this.btnRotateLeft.TabStop = false;
             this.btnRotateLeft.Zoom = 15;
             this.btnRotateLeft.Click += new System.EventHandler(this.btnRotateLeft_Click);
+            // 
+            // lblNum
+            // 
+            this.lblNum.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
+            this.lblNum.Location = new System.Drawing.Point(24, 1);
+            this.lblNum.Name = "lblNum";
+            this.lblNum.Size = new System.Drawing.Size(262, 25);
+            this.lblNum.TabIndex = 10;
+            this.lblNum.Text = "1";
+            this.lblNum.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnUpload
             // 
@@ -194,11 +186,20 @@
             this.picShow.TabIndex = 0;
             this.picShow.TabStop = false;
             // 
+            // ctmSavePic
+            // 
+            this.ctmSavePic.ImageScalingSize = new System.Drawing.Size(24, 24);
+            this.ctmSavePic.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.savePic,
+            this.saveAllPic});
+            this.ctmSavePic.Name = "ctmSavePic";
+            this.ctmSavePic.Size = new System.Drawing.Size(221, 68);
+            // 
             // savePic
             // 
             this.savePic.Image = global::Notice.Properties.Resources.save;
             this.savePic.Name = "savePic";
-            this.savePic.Size = new System.Drawing.Size(155, 22);
+            this.savePic.Size = new System.Drawing.Size(220, 32);
             this.savePic.Text = "Save Picture";
             this.savePic.Click += new System.EventHandler(this.savePic_Click);
             // 
@@ -206,25 +207,24 @@
             // 
             this.saveAllPic.Image = global::Notice.Properties.Resources.transfer_item;
             this.saveAllPic.Name = "saveAllPic";
-            this.saveAllPic.Size = new System.Drawing.Size(160, 22);
+            this.saveAllPic.Size = new System.Drawing.Size(220, 32);
             this.saveAllPic.Text = "Save All Pictures";
             this.saveAllPic.Click += new System.EventHandler(this.saveAllPic_Click);
             // 
             // frmGallery
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(316, 575);
             this.ControlBox = false;
             this.Controls.Add(this.panel2);
-            this.Font = new System.Drawing.Font("Hanuman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "frmGallery";
             this.Text = "Gallery";
             this.Load += new System.EventHandler(this.frmGallery_Load);
             this.panel2.ResumeLayout(false);
-            this.ctmSavePic.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.btnRotateRight)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnRotateLeft)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnUpload)).EndInit();
@@ -232,6 +232,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnBack)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnPrevious)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picShow)).EndInit();
+            this.ctmSavePic.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
