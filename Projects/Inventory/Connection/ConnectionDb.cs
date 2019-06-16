@@ -16,8 +16,7 @@ namespace Inventory.Connection
         /// <summary>
         /// Connect has been Open already
         /// </summary>
-        public static SqlConnection Connect = pConnection.connection(".", "Inventory");
-
+        public static SqlConnection Connect = pConnection.connection(".", "SaleInventory");
 
         /* public static void MyConnection()
          {
