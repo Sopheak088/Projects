@@ -37,13 +37,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Bunifu_UI_v1.5.3">
-      <HintPath>..\Notice\bin\Debug\Bunifu_UI_v1.5.3.dll</HintPath>
+      <HintPath>..\..\..\CSharp\Notice\Notice\bin\Debug\Bunifu_UI_v1.5.3.dll</HintPath>
     </Reference>
     <Reference Include="Janus.Windows.UI.v4">
       <HintPath>..\Notice\bin\Debug\Janus.Windows.UI.v4.dll</HintPath>
     </Reference>
     <Reference Include="Pheak">
-      <HintPath>..\Notice\bin\Debug\Pheak.dll</HintPath>
+      <HintPath>..\..\..\CSharp\Notice\Notice\bin\Debug\Pheak.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
@@ -58,7 +58,7 @@
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Tulpep.NotificationWindow">
-      <HintPath>..\Notice\bin\Debug\Tulpep.NotificationWindow.dll</HintPath>
+      <HintPath>..\..\..\CSharp\Notice\Notice\bin\Debug\Tulpep.NotificationWindow.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

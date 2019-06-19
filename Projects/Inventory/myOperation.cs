@@ -11,7 +11,7 @@ namespace Inventory
     public class myOperation
     {
         public static SqlConnection con; //បង្កើត object ឈ្មោះ con ដើម្បីភ្ជាប់ទៅកាន់ database
-
+        
         public static void myConnection() //បង្កើត method ឈ្មោះ myConnection
         {
             string conStr;

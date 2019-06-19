@@ -78,7 +78,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(12, 60);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(90, 35);
+            this.label2.Size = new System.Drawing.Size(54, 20);
             this.label2.TabIndex = 1;
             this.label2.Text = "អត្ថលេខ";
             // 
@@ -86,14 +86,14 @@
             // 
             this.txtID.Location = new System.Drawing.Point(166, 57);
             this.txtID.Name = "txtID";
-            this.txtID.Size = new System.Drawing.Size(213, 44);
+            this.txtID.Size = new System.Drawing.Size(213, 26);
             this.txtID.TabIndex = 0;
             // 
             // txtName
             // 
             this.txtName.Location = new System.Drawing.Point(166, 107);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(213, 44);
+            this.txtName.Size = new System.Drawing.Size(213, 26);
             this.txtName.TabIndex = 1;
             // 
             // label3
@@ -101,7 +101,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(12, 110);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(70, 35);
+            this.label3.Size = new System.Drawing.Size(35, 20);
             this.label3.TabIndex = 3;
             this.label3.Text = "ឈ្មោះ";
             // 
@@ -110,7 +110,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(12, 161);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(52, 35);
+            this.label4.Size = new System.Drawing.Size(32, 20);
             this.label4.TabIndex = 5;
             this.label4.Text = "ភេទ";
             // 
@@ -119,7 +119,7 @@
             this.rdoFemale.AutoSize = true;
             this.rdoFemale.Location = new System.Drawing.Point(166, 157);
             this.rdoFemale.Name = "rdoFemale";
-            this.rdoFemale.Size = new System.Drawing.Size(70, 39);
+            this.rdoFemale.Size = new System.Drawing.Size(41, 24);
             this.rdoFemale.TabIndex = 2;
             this.rdoFemale.TabStop = true;
             this.rdoFemale.Text = "ស្រី";
@@ -130,7 +130,7 @@
             this.rdoMale.AutoSize = true;
             this.rdoMale.Location = new System.Drawing.Point(294, 157);
             this.rdoMale.Name = "rdoMale";
-            this.rdoMale.Size = new System.Drawing.Size(85, 39);
+            this.rdoMale.Size = new System.Drawing.Size(51, 24);
             this.rdoMale.TabIndex = 3;
             this.rdoMale.TabStop = true;
             this.rdoMale.Text = "ប្រុស";
@@ -141,7 +141,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(12, 216);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(148, 35);
+            this.label5.Size = new System.Drawing.Size(87, 20);
             this.label5.TabIndex = 8;
             this.label5.Text = "ថ្ងៃខែឆ្នាំកំណើត";
             // 
@@ -151,14 +151,14 @@
             this.dtpDOB.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtpDOB.Location = new System.Drawing.Point(166, 209);
             this.dtpDOB.Name = "dtpDOB";
-            this.dtpDOB.Size = new System.Drawing.Size(213, 44);
+            this.dtpDOB.Size = new System.Drawing.Size(213, 26);
             this.dtpDOB.TabIndex = 4;
             // 
             // txtPos
             // 
             this.txtPos.Location = new System.Drawing.Point(166, 270);
             this.txtPos.Name = "txtPos";
-            this.txtPos.Size = new System.Drawing.Size(213, 44);
+            this.txtPos.Size = new System.Drawing.Size(213, 26);
             this.txtPos.TabIndex = 5;
             // 
             // label6
@@ -166,7 +166,7 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(14, 273);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(68, 35);
+            this.label6.Size = new System.Drawing.Size(42, 20);
             this.label6.TabIndex = 10;
             this.label6.Text = "តួនាទី";
             // 
@@ -174,7 +174,7 @@
             // 
             this.txtSalary.Location = new System.Drawing.Point(558, 57);
             this.txtSalary.Name = "txtSalary";
-            this.txtSalary.Size = new System.Drawing.Size(213, 44);
+            this.txtSalary.Size = new System.Drawing.Size(213, 26);
             this.txtSalary.TabIndex = 6;
             // 
             // label7
@@ -182,7 +182,7 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(406, 60);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(82, 35);
+            this.label7.Size = new System.Drawing.Size(50, 20);
             this.label7.TabIndex = 12;
             this.label7.Text = "ប្រាក់ខែ";
             // 
@@ -191,7 +191,7 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(406, 110);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(122, 35);
+            this.label8.Size = new System.Drawing.Size(69, 20);
             this.label8.TabIndex = 14;
             this.label8.Text = "អាសយដ្ធាន";
             // 
@@ -200,7 +200,7 @@
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(406, 216);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(105, 35);
+            this.label9.Size = new System.Drawing.Size(59, 20);
             this.label9.TabIndex = 16;
             this.label9.Text = "លេខូរសព្ទ";
             // 
@@ -217,7 +217,7 @@
             this.txtPhone.Location = new System.Drawing.Point(558, 216);
             this.txtPhone.Mask = "(999)-999-9999";
             this.txtPhone.Name = "txtPhone";
-            this.txtPhone.Size = new System.Drawing.Size(213, 44);
+            this.txtPhone.Size = new System.Drawing.Size(213, 26);
             this.txtPhone.TabIndex = 8;
             // 
             // label10
@@ -225,7 +225,7 @@
             this.label10.AutoSize = true;
             this.label10.Location = new System.Drawing.Point(406, 273);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(127, 35);
+            this.label10.Size = new System.Drawing.Size(75, 20);
             this.label10.TabIndex = 20;
             this.label10.Text = "ថ្ងៃចូលធ្វើការ";
             // 
@@ -235,7 +235,7 @@
             this.dtpHired.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtpHired.Location = new System.Drawing.Point(558, 266);
             this.dtpHired.Name = "dtpHired";
-            this.dtpHired.Size = new System.Drawing.Size(213, 44);
+            this.dtpHired.Size = new System.Drawing.Size(213, 26);
             this.dtpHired.TabIndex = 9;
             // 
             // btnClose
@@ -315,26 +315,26 @@
             // 
             this.dgvEmp.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvEmp.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.dgvEmp.Location = new System.Drawing.Point(0, 442);
+            this.dgvEmp.Location = new System.Drawing.Point(0, 427);
             this.dgvEmp.Name = "dgvEmp";
             this.dgvEmp.RowHeadersWidth = 62;
             this.dgvEmp.RowTemplate.Height = 28;
-            this.dgvEmp.Size = new System.Drawing.Size(974, 387);
+            this.dgvEmp.Size = new System.Drawing.Size(974, 322);
             this.dgvEmp.TabIndex = 28;
             // 
             // txtSearch
             // 
             this.txtSearch.Location = new System.Drawing.Point(0, 395);
             this.txtSearch.Name = "txtSearch";
-            this.txtSearch.Size = new System.Drawing.Size(974, 44);
+            this.txtSearch.Size = new System.Drawing.Size(974, 26);
             this.txtSearch.TabIndex = 15;
             // 
             // FrmEmployee
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 35F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(974, 829);
+            this.ClientSize = new System.Drawing.Size(974, 749);
             this.Controls.Add(this.txtSearch);
             this.Controls.Add(this.dgvEmp);
             this.Controls.Add(this.btnClose);
@@ -363,7 +363,7 @@
             this.Controls.Add(this.txtID);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Font = new System.Drawing.Font("Hanuman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(6, 9, 6, 9);

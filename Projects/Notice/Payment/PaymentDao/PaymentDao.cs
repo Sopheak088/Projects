@@ -6,7 +6,7 @@ namespace Notice.Payment.PaymentEntity
 {
     class PaymentDao
     {
-        public static void SavePayment(DateTime? paymentDate, string items, decimal price,string Des,  DateTime? createDate, string cretaeBy, int? id = null)
+        public static void SavePayment(DateTime? paymentDate, string items, decimal price,string Des,  DateTime? createDate, string createBy, int? id = null)
         {
             try
             {
@@ -14,7 +14,7 @@ namespace Notice.Payment.PaymentEntity
                 if (id.Equals(null))
                 {
                     sql = "INSERT INTO PAYMENT(PaymentDate, Items, Price, Description, CreateDate, CreateBy) VALUES(" +
-                                 "'"+paymentDate +"'," + "N'" + items +"','" + price + "'," + "N'" + Des + "','" + createDate + "',N'" + cretaeBy + "')";
+                                 "'"+paymentDate +"'," + "N'" + items +"','" + price + "'," + "N'" + Des + "','" + createDate + "',N'" + createBy + "')";
                 }
                 else
                 {

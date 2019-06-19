@@ -1,10 +1,10 @@
-Create Database SaleInventory On (Name = SaleInventory, FileName = "D:\Lesson\MyProject\SaleInventory.mdf",
+Create Database Inventory On (Name = SaleInventory, FileName = "D:\Database\Inventory.mdf",
 Size = 5MB,MaxSize = Unlimited, FileGrowth = 2MB)
-Log On (Name = SaleInventory_log, FileName = "D:\Lesson\MyProject\SaleInventory_log.ldf",
+Log On (Name = SaleInventory_log, FileName = "D:\Database\Inventory_log.ldf",
 Size = 4MB, MaxSize = Unlimited, FileGrowth =10%)
 GO
 --MaxSize=4GB
-USE SaleInventory
+USE Inventory
 GO
 CREATE TABLE tbEmployee(
 empID char(5)NOT NULL,
@@ -101,12 +101,3 @@ CONSTRAINT fktbProduct FOREIGN KEY (proID) REFERENCES tbProduct(proID)ON UPDATE 
 )
 GO
 ----------------------------------------------------------------------------------
-
-
-CREATE TABLE tbUser(
-empID char(5) NOT NULL PRIMARY KEY,
-empName NVARCHAR(MAX) COLLATE Khmer_100_BIN NOT NULL,
-username NVARCHAR(MAX) NOT NULL,
-upassword NVARCHAR(MAX) NOT NULL,
-empPos NVARCHAR(MAX) NOT NULL,
-)
