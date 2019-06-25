@@ -65,6 +65,12 @@
     <Compile Include="Connection\ConnectionDb.cs" />
     <Compile Include="Employee\Dao\EmployeeDao.cs" />
     <Compile Include="Employee\Entity\EmployeeEntity.cs" />
+    <Compile Include="FrmCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCategory.Designer.cs">
+      <DependentUpon>FrmCategory.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmEmployee.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,9 +78,12 @@
       <DependentUpon>FrmEmployee.cs</DependentUpon>
     </Compile>
     <Compile Include="Helper\Helper.cs" />
-    <Compile Include="myOperation.cs" />
+    <Compile Include="Myoperation.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmCategory.resx">
+      <DependentUpon>FrmCategory.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmEmployee.resx">
       <DependentUpon>FrmEmployee.cs</DependentUpon>
     </EmbeddedResource>
@@ -320,6 +329,9 @@
     <Content Include="Image\transportation_32px.png" />
     <Content Include="Image\upload_to_ftp_25px.png" />
     <Content Include="Image\view_details_25px.png" />
+    <None Include="Resources\edit.png" />
+    <None Include="Resources\available room 24x24.png" />
+    <None Include="Resources\exit 24x24.png" />
     <None Include="Resources\exit_25px_2.png" />
     <None Include="Resources\do_not_disturb_25px.png" />
     <None Include="Resources\print_25px.png" />

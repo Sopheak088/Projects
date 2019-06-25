@@ -1,6 +1,6 @@
-Create Database SaleInventory On (Name = SaleInventory, FileName = "D:\Lesson\MyProject\SaleInventory.mdf",
+Create Database Inventory On (Name = SaleInventory, FileName = "D:\Database\Inventory.mdf",
 Size = 5MB,MaxSize = Unlimited, FileGrowth = 2MB)
-Log On (Name = SaleInventory_log, FileName = "D:\Lesson\MyProject\SaleInventory_log.ldf",
+Log On (Name = SaleInventory_log, FileName = "D:\Database\Inventory_log.ldf",
 Size = 4MB, MaxSize = Unlimited, FileGrowth =10%)
 GO
 --MaxSize=4GB
@@ -104,9 +104,11 @@ GO
 
 
 CREATE TABLE tbUser(
+userID INT IDENTITY(1,1) NOT NULL,
 empID char(5) NOT NULL PRIMARY KEY,
 empName NVARCHAR(MAX) COLLATE Khmer_100_BIN NOT NULL,
 username NVARCHAR(MAX) NOT NULL,
 upassword NVARCHAR(MAX) NOT NULL,
-empPos NVARCHAR(MAX) NOT NULL,
+empPos NVARCHAR(MAX) NOT NULL
+CONSTRAINT fkUserEmployee FOREIGN KEY (empID) REFERENCES tbEmployee(empID)ON UPDATE CASCADE ON DELETE CASCADE
 )
