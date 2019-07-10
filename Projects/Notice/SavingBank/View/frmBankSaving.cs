@@ -17,23 +17,27 @@ namespace Notice.SavingBank.View
         }
 
         private int? id;
+
         private void frmBankSaving_Load(object sender, EventArgs e)
         {
             visible();
             refresh();
         }
-        void ClearData()
+
+        private void ClearData()
         {
             txtAmount.Text = string.Empty;
             txtDescription.Text = string.Empty;
             dtpDate.Value = DateTime.Today;
         }
-        void refresh()
+
+        private void refresh()
         {
             id = null;
             pGridEX.BindDataIntoGrid(Connection.ToDatabase(), "ListAllBankSaving", gridListBank);
         }
-        void visible(bool isLoad = false)
+
+        private void visible(bool isLoad = false)
         {
             pDisplay.Visible = !isLoad;
             btnSave.Visible = isLoad;
@@ -41,6 +45,7 @@ namespace Notice.SavingBank.View
             btnCashOut.Visible = !isLoad;
             //gridListBank.Visible = !isLoad;
         }
+
         private void btnBack_Click(object sender, EventArgs e)
         {
             if (gridListBank.Visible) Close();
@@ -55,7 +60,7 @@ namespace Notice.SavingBank.View
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            if(string.IsNullOrWhiteSpace(txtAmount.Text)) return;
+            if (string.IsNullOrWhiteSpace(txtAmount.Text)) return;
             decimal amount = 0;
             int n = Int16.Parse(txtAmount.Text.Length.ToString());
             if (txtAmount.Text.Substring(0, 1) == "$")
@@ -71,7 +76,7 @@ namespace Notice.SavingBank.View
             {
                 if (id.Equals(null))
                 {
-                    SavingBankEntity.SavingBankDao.SaveBank(date,amount,myClass.CASH_IN,des,myClass.createDate,myClass.createBy);
+                    SavingBankEntity.SavingBankDao.SaveBank(date, amount, myClass.CASH_IN, des, myClass.createDate, myClass.createBy);
                 }
                 else
                 {
@@ -167,12 +172,13 @@ namespace Notice.SavingBank.View
                     btnCashOut.Text = "Cash In";
                 }
             }
-            catch(Exception exception)
+            catch (Exception exception)
 
             {
-                return;
+                Console.WriteLine(exception.ToString());
             }
         }
+
         private void txtAmount_KeyPress(object sender, KeyPressEventArgs e)
         {
             Pheak.myOper.Textbox_Only_Number_KeyPress(txtAmount, sender, e);

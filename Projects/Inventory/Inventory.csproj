@@ -77,6 +77,12 @@
     <Compile Include="FrmEmployee.Designer.cs">
       <DependentUpon>FrmEmployee.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmSupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSupplier.Designer.cs">
+      <DependentUpon>frmSupplier.cs</DependentUpon>
+    </Compile>
     <Compile Include="Helper\Helper.cs" />
     <Compile Include="Myoperation.cs" />
     <Compile Include="Program.cs" />
@@ -86,6 +92,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmEmployee.resx">
       <DependentUpon>FrmEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSupplier.resx">
+      <DependentUpon>frmSupplier.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -329,6 +338,25 @@
     <Content Include="Image\transportation_32px.png" />
     <Content Include="Image\upload_to_ftp_25px.png" />
     <Content Include="Image\view_details_25px.png" />
+    <None Include="Resources\add1.png" />
+    <None Include="Resources\cancel_2_25px.png" />
+    <None Include="Resources\close_window_25px.png" />
+    <None Include="Resources\edit1.png" />
+    <None Include="Resources\save.png" />
+    <None Include="Resources\add.png" />
+    <None Include="Resources\add_user_male_32px.png" />
+    <None Include="Resources\pet1.png" />
+    <None Include="Resources\jellyfish.png" />
+    <None Include="Resources\duckling.png" />
+    <None Include="Resources\pig.png" />
+    <None Include="Resources\rabbit %281%29.png" />
+    <None Include="Resources\rabbit.png" />
+    <None Include="Resources\kitty %281%29.png" />
+    <None Include="Resources\pet.png" />
+    <None Include="Resources\document.png" />
+    <None Include="Resources\save_as_25px.png" />
+    <None Include="Resources\plus1_25px.png" />
+    <None Include="Resources\plus_25px.png" />
     <None Include="Resources\edit.png" />
     <None Include="Resources\available room 24x24.png" />
     <None Include="Resources\exit 24x24.png" />

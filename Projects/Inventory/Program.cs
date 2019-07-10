@@ -17,7 +17,7 @@ namespace Inventory
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmEmployee());
+            Application.Run(new frmSupplier());
         }
     }
 }
