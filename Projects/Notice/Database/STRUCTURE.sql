@@ -1,6 +1,6 @@
-Create Database DBNOTICE On (Name = DBNOTICE, FileName = "D:\CSharp\Notice\Database\DBNOTICE.mdf",
+Create Database DBNOTICE On (Name = DBNOTICE, FileName = "D:\Database\DBNOTICE.mdf",
 Size = 5MB,MaxSize = Unlimited, FileGrowth = 2MB)
-Log On (Name = DBNOTICE_log, FileName = "D:\CSharp\Notice\Database\DBNOTICE_log.ldf",
+Log On (Name = DBNOTICE_log, FileName = "D:\Database\DBNOTICE_log.ldf",
 Size = 4MB, MaxSize = Unlimited, FileGrowth =10%)
 GO
 --MaxSize=4GB
@@ -31,17 +31,17 @@ CREATE TABLE LOVECOUNT(
 	CreateBy NVARCHAR(MAX)
 )
 GO
-CREATE TABLE LOVECOUNT(
-	ID INT IDENTITY(1,1) PRIMARY KEY,
-	MaleName NVARCHAR(MAX),
-	MalePhoto VARBINARY(MAX),
-	FemaleName NVARCHAR(MAX),
-	FemalePhoto VARBINARY(MAX),
-	StartDate DATE,
-	[Status] NVARCHAR(MAX),
-	CreateDate DATETIME,
-	CreateBy NVARCHAR(MAX)
-)
+--CREATE TABLE LOVECOUNT(
+--	ID INT IDENTITY(1,1) PRIMARY KEY,
+--	MaleName NVARCHAR(MAX),
+--	MalePhoto VARBINARY(MAX),
+--	FemaleName NVARCHAR(MAX),
+--	FemalePhoto VARBINARY(MAX),
+--	StartDate DATE,
+--	[Status] NVARCHAR(MAX),
+--	CreateDate DATETIME,
+--	CreateBy NVARCHAR(MAX)
+--)
 GO
 CREATE TABLE PAYMENT(
 	ID INT IDENTITY(1,1) PRIMARY KEY,
